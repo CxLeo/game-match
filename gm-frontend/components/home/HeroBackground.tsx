@@ -12,25 +12,26 @@ interface Img{
 export default function HeroBackground() {
     
     const images1:Img[]=[
-        {url:"/nightmares-3.webp",name:"Nightmares 3"},
+        {url:"/mario.webp",name:"Super Mario Odessy"},
         {url:"/mhw.webp",name:"Monster Hunter: World"},
         {url:"/bloodborne.webp",name:"Bloodborne"},
-        {url:"/blackmyth.webp",name:"Black Myth: Wukong"},
+        {url:"/borderlands3.webp",name:"BorderLands 3"},
         {url:"/codevein.webp",name:"Code Vein"},
+        
     ];
     const images2:Img[]=[
-        {url:"/nightmares-3.webp",name:"Nightmares 3"},
-        {url:"/mhw.webp",name:"Monster Hunter: World"},
-        {url:"/bloodborne.webp",name:"Bloodborne"},
         {url:"/blackmyth.webp",name:"Black Myth: Wukong"},
-        {url:"/codevein.webp",name:"Code Vein"},
+        {url:"/fortnite.webp",name:"Fortnite"},
+        {url:"/pokemonshield.webp",name:"Pokemon: Shield"},
+        {url:"/redemption2.webp",name:"Big Dead Redemption 2"},
+        {url:"/witcher3.webp",name:"The Witcher 3: Wild Hunt"},
     ];
     const images3:Img[]=[
         {url:"/nightmares-3.webp",name:"Nightmares 3"},
-        {url:"/mhw.webp",name:"Monster Hunter: World"},
-        {url:"/bloodborne.webp",name:"Bloodborne"},
-        {url:"/blackmyth.webp",name:"Black Myth: Wukong"},
-        {url:"/codevein.webp",name:"Code Vein"},
+        {url:"/slaythespire.webp",name:"Slay The Spires"},
+        {url:"/splatoon.webp",name:"Splatoon 2"},
+        {url:"/fireemblemth.webp",name:"Fire Emblem: Three Houses"},
+        {url:"/zelda.webp",name:"Legend of Zelda: Breath of the wild"},
     ];
 
 
@@ -38,9 +39,9 @@ export default function HeroBackground() {
         <motion.div 
         initial={{rotate:-30}}
          className="grid grid-cols-3 grid-rows-1 gap-x-4 -right-[700px] -top-[500px] bg-green-30 overflow-hidden absolute z-0">
-            <div className="absolute w-full h-full z-">
-                <div className=" bg-gradient-to-b from-[#2446BE] to-[#00000000]" />
-            </div>
+            {/* <div className="absolute bg-gradient-to-b from-[#272729] to-[#00000000] bg-opacity-15 w-full h-full z-5 ">
+                <div className="absolute bg-gradient-to-b from-[#272729] to-[#00000000] bg-opacity-15" />
+            </div> */}
              <motion.div 
              initial={{ y:"0%" }}
              animate={{ y: ["0%", -1840] }}

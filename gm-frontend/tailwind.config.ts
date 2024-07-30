@@ -13,7 +13,9 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
-      
+      backgroundImage:{
+        'custom-gradient': 'linear-gradient(to bottom, #2446BE 5%, #00000000 95%)',
+      }
     },
     screens:{
       'sm': '375px',
