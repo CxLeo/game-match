@@ -22,7 +22,7 @@ function HeroText() {
         >
          {`Discovered through the things you already love  `}
           <Highlight className="text-white">
-          with the power of AI
+          with the power of <span className="text-[#ffc145]">AI</span>
           </Highlight>
         </motion.h4>
 
