@@ -38,10 +38,7 @@ export default function HeroBackground() {
     return (
         <motion.div 
         initial={{rotate:-30}}
-         className="grid grid-cols-3 grid-rows-1 gap-x-4 -right-[700px] -top-[500px] bg-green-30 overflow-hidden absolute z-0">
-            {/* <div className="absolute bg-gradient-to-b from-[#272729] to-[#00000000] bg-opacity-15 w-full h-full z-5 ">
-                <div className="absolute bg-gradient-to-b from-[#272729] to-[#00000000] bg-opacity-15" />
-            </div> */}
+         className="grid grid-cols-3 grid-rows-1 gap-x-4 -right-[700px] -top-[500px]  overflow-hidden absolute z-0">
              <motion.div 
              initial={{ y:"0%" }}
              animate={{ y: ["0%", -1840] }}
