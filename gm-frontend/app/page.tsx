@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import HeroText from "@/components/home/HeroText";
 import HeroBackground from "@/components/home/HeroBackground";
 import SearchBar from "@/components/home/SearchBar";
