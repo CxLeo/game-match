@@ -2,8 +2,10 @@
 import { motion, PanInfo, useAnimation } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
-function Card() {
 
+function Card({index}:{
+    index:number
+}) {
     const controls = useAnimation();
     const [dragging, setDragging] = useState(false);
     const [width,setWidth] = useState(1440);
@@ -40,7 +42,7 @@ function Card() {
         onDragEnd={handleDragEnd}
 
     
-        className="max-w-[1120px] w-[77.7%] mx-auto h-[533px] bg-white rounded-lg text-center shadow-[5px_15px_4px_5px_#77215426] ">
+        className= {` translate-x-${index} max-w-[1120px] border-2 border-gray-500 absolute w-[77.7%]  h-[533px] bg-white rounded-lg text-center shadow-[5px_15px_4px_5px_#77215426]`} >
         card info
     </motion.div>
   )
